@@ -1,0 +1,14 @@
+{
+  "resourceName": "awsalfredbucket",
+  "policyUUID": "b8731568",
+  "bucketName": "awsalfred27766ee1c1814b80ac74b0fa12b40001",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
