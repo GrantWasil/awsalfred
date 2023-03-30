@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-murdermysteryapp-dev-232313-authRole",
+      "UnauthRoleArn": "arn:aws:iam::511107198209:role/amplify-murdermysteryapp-dev-232313-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::511107198209:role/amplify-murdermysteryapp-dev-232313-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-murdermysteryapp-dev-232313-deployment",
+      "UnauthRoleName": "amplify-murdermysteryapp-dev-232313-unauthRole",
+      "StackName": "amplify-murdermysteryapp-dev-232313",
+      "StackId": "arn:aws:cloudformation:us-west-2:511107198209:stack/amplify-murdermysteryapp-dev-232313/f91f4b50-ceba-11ed-a4af-02526a8a93cd",
+      "AmplifyAppId": "dpamua83wrfvl"
+    },
+    "categories": {
+      "auth": {
+        "murdermysteryappdaab783f": {}
+      },
+      "api": {
+        "murdermysteryapp": {}
+      }
+    }
+  }
+}

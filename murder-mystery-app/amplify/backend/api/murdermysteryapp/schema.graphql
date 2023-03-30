@@ -1,0 +1,32 @@
+type Party
+  @model
+  @auth(rules: [{ allow: owner }])
+{
+  id: ID!
+  name: String!
+  characters: [Character] @hasMany(indexName: "byParty", fields: ["id"])
+  owner: String
+}
+
+type Character
+  @model
+  @auth(
+    rules: [
+      { allow: owner, operations: [create, read, update, delete] }
+      { allow: public, operations: [read] }
+    ]
+  )
+{
+  id: ID!
+  partyID: ID! @index(name: "byParty")
+  name: String!
+  background: String!
+  money: Float!
+  items: [String]!
+  abilities: [Ability]!
+}
+
+type Ability {
+  name: String!
+  uses: Int!
+}
